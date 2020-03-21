@@ -12,7 +12,6 @@ function AddTransaction() {
     e.preventDefault();
 
     const newTransaction = {
-      id: Date.now(),
       text,
       amount: +amount
     };
